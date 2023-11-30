@@ -74,4 +74,10 @@ public class LogInSceneController implements Initializable {
   
     }
     
+    
+
+    @FXML
+    private void switchtoSelectedScene(ActionEvent event) {
+    }
+    
 }
