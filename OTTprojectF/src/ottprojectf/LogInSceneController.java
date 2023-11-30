@@ -47,7 +47,7 @@ public class LogInSceneController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        categoryComboBox.getItems().addAll("Subscriber","Customer Support","Managing Director");
+        categoryComboBox.getItems().addAll("Subscriber","CustomerSupport","ManagingDirector","ContentCreator");
         categoryComboBox.setValue("Subscriber");
     }    
 
@@ -72,6 +72,35 @@ public class LogInSceneController implements Initializable {
         stage.setScene(scene);
         stage.show();
   
+    }
+    
+    public class SceneSwitcher {
+
+    private final Stage stage;
+
+    public SceneSwitcher(Stage stage) {
+        this.stage = stage;
+    }
+        public void switchScene(String fxmlPath) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(fxmlPath));
+            Parent root = loader.load();
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+    @FXML
+    private void switchtoSelectedScene(ActionEvent event) {
+        //SWITCHING SCENES FROM COMBOBOX
+        String selectedScene = categoryComboBox.getValue();
+        if (selectedScene != null) {
+            SceneSwitcher sceneSwitcher = new SceneSwitcher((Stage) ((Node) event.getSource()).getScene().getWindow());
+            sceneSwitcher.switchScene(selectedScene + ".fxml");
+        }
     }
     
 }
