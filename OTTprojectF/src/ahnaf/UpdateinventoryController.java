@@ -30,7 +30,7 @@ public class UpdateinventoryController implements Initializable {
     }    
 
     @FXML
-    private void updateonaction(ActionEvent event) {
+    private void UpdateButtonOnClicked(ActionEvent event) {
     }
     
 }

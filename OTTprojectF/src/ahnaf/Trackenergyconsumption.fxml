@@ -11,7 +11,7 @@
    <children>
       <Label layoutX="181.0" layoutY="26.0" prefHeight="30.0" prefWidth="239.0" style="-fx-background-color: #3f6de0;" text="Track Energy Consumption" textFill="WHITE">
          <font>
-            <Font name="Calibri Bold Italic" size="20.0" />
+            <Font name="Calibri Bold Italic" size="19.0" />
          </font>
       </Label>
       <TableView layoutY="123.0" prefHeight="200.0" prefWidth="601.0">

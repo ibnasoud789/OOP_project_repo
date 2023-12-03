@@ -10,7 +10,7 @@
    <children>
       <Label layoutX="195.0" layoutY="27.0" style="-fx-background-color: #3f6de0;" text="Communication Module" textFill="WHITE">
          <font>
-            <Font name="Calibri Bold Italic" size="20.0" />
+            <Font name="Calibri Bold Italic" size="19.0" />
          </font>
       </Label>
       <TextArea fx:id="Givemessage" layoutX="122.0" layoutY="128.0" prefHeight="200.0" prefWidth="375.0" />
