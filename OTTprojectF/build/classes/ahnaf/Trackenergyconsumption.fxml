@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="ahnaf.TrackenergyconsumptionController">
+   <children>
+      <Label layoutX="181.0" layoutY="26.0" prefHeight="30.0" prefWidth="239.0" style="-fx-background-color: #eb078e;" text="Track Energy Consumption">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TableView layoutY="123.0" prefHeight="200.0" prefWidth="601.0">
+        <columns>
+          <TableColumn prefWidth="134.0" text="Device" />
+          <TableColumn fx:id="Trackenergyconsumption" prefWidth="184.0" text="Energy Consumed " />
+            <TableColumn prefWidth="148.0" text="Energy Cost per unit" />
+            <TableColumn prefWidth="134.0" text="Total Enery Cost" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -11,42 +11,42 @@
         <menus>
           <Menu mnemonicParsing="false" text="view maintenance request">
             <items>
-              <MenuItem mnemonicParsing="false" text="maintenance request" />
+              <MenuItem mnemonicParsing="false" onAction="#maintenancerequestonaction" text="maintenance request" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text=" create maintenance request">
             <items>
-              <MenuItem mnemonicParsing="false" text=" create maintenance request" />
+              <MenuItem mnemonicParsing="false" onAction="#createmaintenancerequestonaction" text=" create maintenance request" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="update request status">
             <items>
-              <MenuItem mnemonicParsing="false" text=" request status" />
+              <MenuItem mnemonicParsing="false" onAction="#requeststatusonaction" text=" request status" />
             </items>
           </Menu>
             <Menu mnemonicParsing="false" text=" view equipment status.">
               <items>
-                <MenuItem mnemonicParsing="false" text="equipment status." />
+                <MenuItem mnemonicParsing="false" onAction="#equipmentstatusonaction" text="equipment status" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="communication module">
               <items>
-                <MenuItem mnemonicParsing="false" text="communication module" />
+                <MenuItem mnemonicParsing="false" onAction="#communicationmoduleonaction" text="communication module" />
               </items>
             </Menu>
-            <Menu mnemonicParsing="false" text=" view/update inventory">
+            <Menu mnemonicParsing="false" text="update inventory">
               <items>
-                <MenuItem mnemonicParsing="false" text=" Inventory Management" />
+                <MenuItem mnemonicParsing="false" onAction="#InventoryManagementonaction" text=" Inventory Management" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="track energy consumption">
               <items>
-                <MenuItem mnemonicParsing="false" text="energy consumption" />
+                <MenuItem mnemonicParsing="false" onAction="#energyconsumption" text="energy consumption" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text=" feedback and ratings ">
               <items>
-                <MenuItem mnemonicParsing="false" text=" feedback and ratings " />
+                <MenuItem mnemonicParsing="false" onAction="#feedbackandratingsonaction" text=" feedback and ratings " />
               </items>
             </Menu>
         </menus>
