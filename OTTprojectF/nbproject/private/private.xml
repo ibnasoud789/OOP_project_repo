@@ -3,8 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/dddd.java</file>
-            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/jkk.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/Trackenergyconsumption.fxml</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/Createmaintainencerequest.fxml</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/Updateinventory.fxml</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/UpdateinventoryController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/ViewMaintainencerequest.fxml</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/ViewMaintainencerequestController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/CreatemaintainencerequestController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ottprojectf/CategorySelectSceneController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/erin/ContentCreatorController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/MaintainenanceofficerController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/Feedbackandratings.fxml</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/FeedbackandratingsController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/UpdaterequeststatusController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/TrackenergyconsumptionController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ahnaf/CommunicationmoduleController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ottprojectf/LogInSceneController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ottprojectf/SubscriptionSceneController.java</file>
+            <file>file:/C:/Users/User/Desktop/OOP_project_repo/OTTprojectF/src/ottprojectf/CommonSceneController.java</file>
         </group>
     </open-files>
 </project-private>
